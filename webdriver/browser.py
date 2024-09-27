@@ -160,28 +160,32 @@ class ChromeDriver:
     def parse_jobs(self):
         os.makedirs('./jobs/', exist_ok=True) 
         page = 1
+        find_param = 'devops'
         while True:
-            self.driver.get(f"https://www.upwork.com/nx/search/jobs/?nbs=1&q=devops&page={page}&per_page=50")
+            self.driver.get(f"https://www.upwork.com/nx/search/jobs/?nbs=1&q={find_param}&page={page}&per_page=50")
             article = self.check_load_elements(By.XPATH, '//article')    
             for index, job in enumerate(article):
                 try:
                     title = self.check_load_element(By.XPATH, ".//a", element=job)
-                    title.click()
+                    self.driver.execute_script("arguments[0].click();", title)
 
                     job_window = self.check_load_element(By.XPATH, "//div[@data-ev-sublocation='jobdetails']")
-                    title_job = self.check_load_element(By.XPATH, ".//h4", element=job_window)
-                    location = self.check_load_element(By.XPATH, ".//div[@data-test='LocationLabel']", element=job_window)
-                    description = self.check_load_element(By.XPATH, ".//div[@data-test='Description']", element=job_window)
-                    feature = self.check_load_element(By.XPATH, ".//section[@data-test='Features']", element=job_window)
-                    activity = self.check_load_element(By.XPATH, ".//section[@data-test='ClientActivity']", element=job_window)
+                    if not job_window:
+                        continue
+
+                    title_job = self.check_load_element(By.XPATH, ".//h4", element=job_window, time_wait=2)
+                    location = self.check_load_element(By.XPATH, ".//div[@data-test='LocationLabel']", element=job_window, time_wait=2)
+                    description = self.check_load_element(By.XPATH, ".//div[@data-test='Description']", element=job_window, time_wait=2)
+                    feature = self.check_load_element(By.XPATH, ".//section[@data-test='Features']", element=job_window, time_wait=2)
+                    activity = self.check_load_element(By.XPATH, ".//section[@data-test='ClientActivity']", element=job_window, time_wait=2)
                     rating = self.check_load_element(By.XPATH, '//div[@data-testid="buyer-rating"]//div[@class="air3-rating-value-text"]', element=job_window) 
                     tags = self.check_load_elements(By.XPATH, ".//span[@slot='reference']", element=job_window, time_wait=3)
 
-                    client_loc = self.check_load_element(By.XPATH, '//li[@data-qa="client-location"]')
-                    count_posted_jobs = self.check_load_element(By.XPATH, '//li[@data-qa="client-job-posting-stats"]')
-                    total_spent = self.check_load_element(By.XPATH, '//strong[@data-qa="client-spend"]')
-                    hourly_rate = self.check_load_element(By.XPATH, '//strong[@data-qa="client-hourly-rate"]')
-                    posted_job = self.check_load_element(By.XPATH, '//div[@data-test="PostedOn"]')
+                    client_loc = self.check_load_element(By.XPATH, '//li[@data-qa="client-location"]', time_wait=2)
+                    count_posted_jobs = self.check_load_element(By.XPATH, '//li[@data-qa="client-job-posting-stats"]', time_wait=2)
+                    total_spent = self.check_load_element(By.XPATH, '//strong[@data-qa="client-spend"]', time_wait=2)
+                    hourly_rate = self.check_load_element(By.XPATH, '//strong[@data-qa="client-hourly-rate"]', time_wait=2)
+                    posted_job = self.check_load_element(By.XPATH, '//div[@data-test="PostedOn"]', time_wait=2)
                     time_parse = int(time.time())
 
                     close_button = self.check_load_element(By.XPATH, "//button[@data-test='slider-close-desktop']")
@@ -212,7 +216,7 @@ class ChromeDriver:
                     
 
                     if close_button:
-                        close_button.click()
+                        self.driver.execute_script("arguments[0].click();", close_button)
                     
                     time.sleep(2)
 

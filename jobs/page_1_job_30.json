@@ -1,0 +1,21 @@
+{
+    "link": "https://www.upwork.com/jobs/Grafana-Log-query-for-reading-app-logs_~021839462287214976421/?referrer_url_path=/nx/search/jobs/details/~021839462287214976421",
+    "posting_job": "Posted 10 hours ago",
+    "title_job": "Grafana Log query for reading app logs",
+    "location": "Worldwide",
+    "description": "I'm looking for a skilled professional with experience in log analysis in Grafana to help me analyze logs.\nI have the logs getting pulled in Grafana and a partial working query but I need to have an efficient query or do post processing in Grafana dashboard with existing query to get desired results.\n\nThis is a very small micro task related to LogQL. Apply only if you can work on it straight away and if you have experience in building log queries and applying transformations in Grafana dashboard.",
+    "feature": "$50.00\nFixed-price\nIntermediate\nI am looking for a mix of experience and value",
+    "activity": "Activity on this job\nProposals:\n5 to 10\nLast viewed by client:\n7 hours ago\nInterviewing:\n5\nInvites sent:\n8\nUnanswered invites:\n3",
+    "tags": [
+        "Grafana",
+        "logql"
+    ],
+    "client": {
+        "location": "United States\nJersey City 8:28 AM",
+        "count_posted_jobs": "88 jobs posted\n32% hire rate, 1 open job",
+        "total_spent": "$7.7K total spent",
+        "hourly_rate": "$89.49 /hr avg hourly rate paid",
+        "rating": "4.7"
+    },
+    "time_parsing": 1727436502
+}

@@ -1,0 +1,21 @@
+{
+    "link": "https://www.upwork.com/jobs/span-class-highlight-DevOps-span-Developer-for-Odoo-Server-Migration-and-Optimization_~021839619913523115938/?referrer_url_path=/nx/search/jobs/details/~021839619913523115938",
+    "posting_job": "Posted 28 minutes ago",
+    "title_job": "DevOps Developer for Odoo Server Migration and Optimization",
+    "location": "Worldwide",
+    "description": "I am managing a large-scale Odoo project with 1500 active users, 500 branches, and 400 Point of Sale (POS) systems. Our database size is approximately 150+ GB, and we currently utilize a multi-server architecture, including an application server, load balancer, database server, and a slave database server.\n\nHowever, during periods of high concurrent user activity, we are experiencing significant system load and slowness issues. I am seeking a skilled DevOps professional to assist with migrating our current infrastructure to a new server setup with optimized configurations. The goal is to enhance performance, address system slowness, and ensure efficient resource utilization.\n\nRequirements:\n\n    Expertise in server migration, optimization, and scaling.\n    Strong knowledge of Odoo infrastructure and high-load systems.\n    Experience with load balancing, database tuning, and performance optimization.\n    Familiarity with tools like Nginx, PostgreSQL, and server monitoring solutions.\n    Ability to recommend and implement the best possible configuration for a stable, high-performing environment.\n\nIf you have experience in handling large-scale deployments and solving complex performance issues, I’d love to discuss this project further.",
+    "feature": "$500.00\nFixed-price\nExpert\nI am willing to pay higher rates for the most experienced freelancers",
+    "activity": "Activity on this job\nProposals:\n5 to 10\nLast viewed by client:\n3 minutes ago\nInterviewing:\n0\nInvites sent:\n0\nUnanswered invites:\n0",
+    "tags": [
+        "Ubuntu",
+        "DevOps"
+    ],
+    "client": {
+        "location": "India\nAhmedabad 4:54 PM",
+        "count_posted_jobs": "3 jobs posted\n100% hire rate, 1 open job",
+        "total_spent": "$85 total spent",
+        "hourly_rate": null,
+        "rating": "5.0"
+    },
+    "time_parsing": 1727436256
+}

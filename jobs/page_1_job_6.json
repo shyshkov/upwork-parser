@@ -1,0 +1,24 @@
+{
+    "link": "https://www.upwork.com/jobs/Virtual-Coaching-Solution-with-NVIDIA-Audio2Face-Seeking-Expert-Consultant_~021839606735481321378/?referrer_url_path=/nx/search/jobs/details/~021839606735481321378",
+    "posting_job": "Posted 1 hour ago",
+    "title_job": "Virtual Coaching Solution with NVIDIA Audio2Face - Seeking Expert Consultant",
+    "location": "Worldwide",
+    "description": "We are developing a virtual coaching solution using NVIDIA Audio2Face for real-time facial animation, with plans to integrate these video avatars into a B2B coaching platform. Our goal is to create an AI-driven video coach where users can interact with personalized avatars in real time. We are looking for an expert to help us understand the technical possibilities and limitations of:\n\nReal-time facial animation using NVIDIA Audio2Face and integration with existing tools.\n\nImplementing text-to-speech with services like AWS Polly or alternatives.\n\nManaging real-time rendering and low-latency video solutions, potentially leveraging NVIDIA technologies for streaming.\nCustomizing avatar facial expressions, lip-syncing, and body movements to create engaging user interactions.\n\nSkills required:\nExpertise in NVIDIA Audio2Face for facial animation.\nExperience with real-time video rendering and animation pipelines.\nKnowledge of NVIDIA streaming solutions or alternatives for real-time, low-latency video.\nAbility to optimize performance for seamless real-time interactions.\nPlease share relevant project examples and outline your experience with similar tasks. We’re looking for a consultant who can guide us through feasibility and help with implementation if needed.",
+    "feature": "Less than 30 hrs/week\nHourly\n1 to 3 months\nProject Length\nExpert\nI am willing to pay higher rates for the most experienced freelancers",
+    "activity": "Activity on this job\nProposals:\n5 to 10\nLast viewed by client:\n29 minutes ago\nInterviewing:\n6\nInvites sent:\n0\nUnanswered invites:\n0",
+    "tags": [
+        "Amazon Web Services",
+        "Implementation",
+        "Solution Architecture Consultation",
+        "NVIDIA Omniverse",
+        "NVIDIA AI Platform"
+    ],
+    "client": {
+        "location": "Australia\nPearce 9:24 PM",
+        "count_posted_jobs": "209 jobs posted\n75% hire rate, 2 open jobs",
+        "total_spent": "$474K total spent",
+        "hourly_rate": "$17.50 /hr avg hourly rate paid",
+        "rating": "4.7"
+    },
+    "time_parsing": 1727436276
+}

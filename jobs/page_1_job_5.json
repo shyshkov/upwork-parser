@@ -1,0 +1,21 @@
+{
+    "link": "https://www.upwork.com/jobs/span-class-highlight-Devops-span-for-Cash-APP_~021839613617216757157/?referrer_url_path=/nx/search/jobs/details/~021839613617216757157",
+    "posting_job": "Posted 53 minutes ago",
+    "title_job": "Devops for Cash APP AI",
+    "location": "Worldwide",
+    "description": "Project Overview:\nOur Cash Application leverages AI Models to automate data extraction from documents. We are seeking a skilled Dev-Ops Engineer to develop and integrate these AI capabilities, manage model training pipelines, and ensure high accuracy and performance of the ML related infra components.\n\nResponsibilities:\n\nSet up and manage ML pipelines using AWS SageMaker/Containers and Step Functions.\n\nCreate and manage containerized environments for model training and deployment using AWS ECR.\n\nAutomate the model training process triggered by user-submitted templates.\n\nMonitor and evaluate model performance, implementing improvements as needed.\n\nCollaborate with backend and frontend developers to integrate ML models into the application.\n\nEnsure models are deployed securely and comply with AWS GovCloud standards.\n\nManage versioning and rollback strategies for ML models.\n\nRequired Skills:\n\nProficient in Python and ML frameworks (TensorFlow, PyTorch).\n\nFamiliarity with AWS ML services (SageMaker, Step Functions, ECR).\n\nExperience with containerization (Docker) and orchestration.\n\nAbility to design and implement scalable ML pipelines.\n\nKnowledge of version control and model management practices.\n\nPreferred Qualifications:\n\n\nPrevious experience with AWS GovCloud or similar secure cloud environments.\n\nAWS certifications related to machine learning (AWS Certified solution architect).\n\nExperience with deploying ML models in production environments.\n\nFamiliarity with DevOps practices and CI/CD pipelines for ML workflows.\n\nHow to Apply: Please provide your resume, portfolio of ML projects, and a brief description of your experience with, ML deployments particularly within AWS environments.",
+    "feature": "More than 30 hrs/week\nHourly\nMore than 6 months\nProject Length\nExpert\nI am willing to pay higher rates for the most experienced freelancers\n$35.00\n-\n$60.00\nHourly",
+    "activity": "Activity on this job\nProposals:\nLess than 5\nInterviewing:\n0\nInvites sent:\n0\nUnanswered invites:\n0",
+    "tags": [
+        "Git",
+        "DevOps Engineering"
+    ],
+    "client": {
+        "location": "India\nHyderabad 4:54 PM",
+        "count_posted_jobs": "186 jobs posted\n53% hire rate, 9 open jobs",
+        "total_spent": "$309K total spent",
+        "hourly_rate": "$15.91 /hr avg hourly rate paid",
+        "rating": "4.8"
+    },
+    "time_parsing": 1727436271
+}

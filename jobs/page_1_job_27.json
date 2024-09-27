@@ -1,0 +1,24 @@
+{
+    "link": "https://www.upwork.com/jobs/Python-kopf-handler-with-kubernetes_~021839472763566642878/?referrer_url_path=/nx/search/jobs/details/~021839472763566642878",
+    "posting_job": "Posted 10 hours ago",
+    "title_job": "Python kopf handler with kubernetes",
+    "location": "Worldwide",
+    "description": "i have a kopf handler and i am working with a crd and cr and just want to perform some basic crud operations and ensure data is stored into a sqlite db. running into some errors when running the operator shouldnt take long to debug.",
+    "feature": "Less than 30 hrs/week\nHourly\nLess than 1 month\nProject Length\nIntermediate\nI am looking for a mix of experience and value\n$3.00\n-\n$20.00\nHourly",
+    "activity": "Activity on this job\nProposals:\nLess than 5\nInterviewing:\n0\nInvites sent:\n0\nUnanswered invites:\n0",
+    "tags": [
+        "Python",
+        "Kubernetes",
+        "Linux",
+        "Python Script",
+        "RESTful API"
+    ],
+    "client": {
+        "location": "Canada\n7:27 AM",
+        "count_posted_jobs": "1 job posted\n0% hire rate, 1 open job",
+        "total_spent": null,
+        "hourly_rate": null,
+        "rating": null
+    },
+    "time_parsing": 1727436475
+}
